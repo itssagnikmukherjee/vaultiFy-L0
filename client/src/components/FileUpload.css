@@ -1,0 +1,64 @@
+.top {
+  margin: 100px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.choose {
+  background-color: rgb(25, 226, 25);
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-size: 15px;
+  font-family: 'Outfit',sans-serif;
+  color: white;
+  margin-right: 10px;
+  transition: .2s;
+  font-weight: 600;
+}
+.choose:hover {
+  box-shadow: rgb(235, 238, 37) 0 3px 8px;
+  color: rgb(20, 20, 20);
+  transition: .2s;
+  cursor: pointer;
+}
+.textArea {
+  color: white;
+  font-family: 'Outfit',sans-serif;
+  font-weight: 300;
+  opacity: .5;
+  position: absolute;
+  margin-top: 50px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 13px;
+}
+
+.upload {
+  background-color: rgb(25, 79, 226);
+  padding: 10px 20px;
+  border-radius: 40px;
+  font-size: 15px;
+  font-family: 'Outfit',sans-serif;
+  color: white;
+  margin-right: 10px;
+  transition: .2s;
+  font-weight: 600;
+}
+
+.upload:hover {
+  background-color: #a5efc1;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.upload:disabled,
+.upload[disabled] {
+  background-color: #cccccc;
+  color: #666666;
+}
+
+div {
+  padding: 5px 10px;
+}
